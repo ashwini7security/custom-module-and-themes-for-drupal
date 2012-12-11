@@ -1,10 +1,17 @@
+<!DOCTYPE html>
+<html>
+<meta charset='utf-8' lang='en'>
+<title>
+template
+</title>
+<head>
+</head>
+<body>
+
 <div id="header">
 <a href = "<?php print $front_page;?>">
-	<img src="<?php print $base_path?>/<?php print $directory;?>/images/logo.png" alt="<?php print $site_name;?>" height="47" width="217" />
-</a>
-<?php if ($main_menu) : ?>
-	<?php print theme('links_system_main_menu',array('links'=> $main_menu, 'attribute' => array('id' => 'main-menu')));?>
-<?php endif;?>
+	<img src="<?php print $base_path?>/<?php print $directory;?>/images/logo.png" alt="<?php print $site_name;?>" height="60" width="200" />
+</a> <h1> Dobby </h1>
 
 </div>
 
@@ -37,13 +44,6 @@
 <?php endif;?>
 
 </div>
-
-
-
-
-
-
-
 
 
 </body>
